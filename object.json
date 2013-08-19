@@ -1,0 +1,67 @@
+/*JSON Objects - Joshua Campbell 16498634*/
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+		var Users =
+		[
+			{"UserID":"","Username":"","Password":"","FirstName":"","LastName":"","Admin":""},
+			{"UserID":"","Username":"","Password":"","FirstName":"","LastName":"","Admin":""}
+		];
+		
+		var Site =
+		[
+			{"SiteID":"","SiteName":"","Region":"","Altitude":"","Area":"","YearsSampled":"","Aspect":""},
+			{"SiteID":"","SiteName":"","Region":"","Altitude":"","Area":"","YearsSampled":"","Aspect":""}
+		];
+		
+		var Trip =
+		[
+			{"TripID":"","Date":"",},
+			{"TripID":"","Date":"",}
+		];
+		
+		var AlpineDatabase =
+		[
+			{"AlpineDateBaseID":""},
+			{"AlpineDateBaseID":""}
+		];
+		
+		var Tablet =
+		[
+			{"TabletID":""},
+			{"TabletID":""}
+		];
+		
+		var PlantSpecies =
+		[
+			{"PlantSpeciesID":"","Genus":"","Species":"","Family":"","Broad":"","Narrow":"","NativeExotic":"","Synonym":""},
+			{"PlantSpeciesID":"","Genus":"","Species":"","Family":"","Broad":"","Narrow":"","NativeExotic":"","Synonym":""}
+		];
+		
+		var PointQuadrant =
+		[
+			{"TransectID":"","Distance":"","BG":"","FL":"","LL":"",},
+			{"":"","":"",}
+		];
+		
+		var Shrub =
+		[
+			{"ShrubDataID":"","Width1":"","Width2":"","Height":"","StemDiameter":"","NumberOfPlants":"","QuadrantID":"",},
+			{"":"","":"",}
+		];
+		
+		var Floristics =
+		[
+			{"FloristicID":"","Floristic":"","QuadrantID":"",},
+			{"":"","":"",}
+		];
+		
+		var InputCache =
+		[
+			{"LogID":"","Time":"","TripID":"","SiteID":"",}
+		];
+		
+		</script>
+	</body>
+</html>

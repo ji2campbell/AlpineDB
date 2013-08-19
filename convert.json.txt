@@ -1,0 +1,14 @@
+{
+    var db = Database.Open("user");
+    var result = db.Query("SELECT * FROM user");
+    var data = result.Select(x => new 
+    {
+        id = x.id,
+        name = x.name,
+        password = x.password.ToString("s"),
+        admin = false            
+    }).ToArray();
+
+    Json.Write(data, Response.Output);
+    Response.ContentType = "application/json";
+}
